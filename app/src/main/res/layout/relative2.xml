@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/base_btn"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerInParent="true"
+        android:layout_margin="5dp"
+        android:text="기준위젯"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/base_btn"
+        android:layout_alignTop="@+id/base_btn"
+        android:text="1"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/base_btn"
+        android:layout_alignBaseline="@+id/base_btn"
+        android:text="2"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/base_btn"
+        android:layout_alignBottom="@+id/base_btn"
+        android:text="3"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/base_btn"
+        android:layout_alignLeft="@+id/base_btn"
+        android:text="4"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/base_btn"
+        android:layout_alignRight="@+id/base_btn"
+        android:text="5"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/base_btn"
+        android:layout_above="@+id/base_btn"
+        android:text="6"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/base_btn"
+        android:layout_below="@+id/base_btn"
+        android:text="**"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/base_btn"
+        android:layout_alignBaseline="@+id/base_btn"
+        android:text="**"/>
+</RelativeLayout>
